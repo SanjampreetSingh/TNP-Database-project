@@ -23,14 +23,13 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<a class="navbar-brand" href="#">
-				<div class="hidden-md-down">Academic Section</div>
+				<div><i class="fa fa-graduation-cap fa-lg"></i> Academic Section</div>
 				</a>
 				<div class="collapse navbar-collapse" id="collapseEx12">
 					<ul class="nav navbar-nav nav-flex-icons ml-auto">
-					<a href="#" id="show_login" class="nav-link waves-effect waves-light"><i class="fa fa-sign-in"></i><span class="hidden-sm-down">Log In</span></a>
+					<a href="#" id="show_login" class="nav-link waves-effect waves-light"><i class="fa fa-sign-in"></i><span class="hidden-sm-down"> Log In</span></a>
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</header>
-</body>
