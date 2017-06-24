@@ -1,3 +1,15 @@
+body{
+	height: 100%;
+	margin:0;
+}
+html {
+    
+    min-height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+
 .footer-distributed{
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -6,6 +18,9 @@
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
 	margin-top: 80px;
+	height: 310px;
+	bottom: 0;
+	position:relative;
 }
 
 .footer-distributed .footer-left,
@@ -94,7 +109,7 @@
 }
 
 .footer-distributed .footer-center p a{
-	color:  #fffffff;
+	color:  #fff;
 	text-decoration: none;;
 }
 

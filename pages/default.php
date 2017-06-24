@@ -1,9 +1,9 @@
-   <!--Mask-->
-    <div class="view hm-black-strong">
-        <div class="full-bg-img flex-center">
-            <ul>
-                <li>
-                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Academic Section</h1></li>
+<!--Mask-->
+<div class="view hm-black-strong">
+    <div class="full-bg-img flex-center">
+        <ul>
+            <li>
+                <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Academic Section</h1></li>
                 <li>
                     <p class="wow fadeInDown">Login to Enter Possibilities of Life</p>
                 </li>

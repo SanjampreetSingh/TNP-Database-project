@@ -12,10 +12,10 @@ include 'include/header.php';
 //         include 'pages/about.php';
 //         break;
 //     case 'login':
-//         include 'pages/login.php';
+include 'pages/login.php';
 //         break;
 //     default:
-       include 'pages/default.php';
+//   include 'pages/default.php';
 //         break;
 // }
 

@@ -1,0 +1,486 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"height"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"c",
+				"classRollNumber"
+			],
+			[
+				"Lo",
+				"loginPassword"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"nav",
+				"navbar-toggler"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"T",
+				"True"
+			],
+			[
+				"to",
+				"Today"
+			],
+			[
+				"o",
+				"overpay"
+			],
+			[
+				"Over",
+				"overtime"
+			],
+			[
+				"b",
+				"basepay"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"mi",
+				"minlength\tAttr"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"n",
+				"n1"
+			],
+			[
+				"nu",
+				"number1"
+			],
+			[
+				"cl",
+				"cl-r\tclear: right;"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"pa",
+				"pass"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"pass",
+				"Password"
+			],
+			[
+				"email",
+				"Email"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"bclr",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bc",
+				"background-color"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"strr",
+				"strrev"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pl",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 637.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/Training 6 weeks project/assets/css/default-page.css",
+		"/C/xampp/htdocs/Training 6 weeks project/index.php",
+		"/C/xampp/htdocs/Training 6 weeks project/include/header.php",
+		"/C/xampp/htdocs/Training 6 weeks project/include/footer.php",
+		"/C/xampp/htdocs/Training 6 weeks project/assets/css/footer.css",
+		"/C/xampp/htdocs/Training 6 weeks project/pages/login.php",
+		"/C/xampp/htdocs/Training 6 weeks project/pages/default.php",
+		"/C/xampp/htdocs/Training 6 weeks project/pages/training 6 weeks.sublime-project",
+		"/C/xampp/htdocs/Training 6 weeks project/assets/js/default-page.js",
+		"/C/Users/user/Downloads/basic-landing-page/basic-landing-page/index.html",
+		"/C/Users/user/Downloads/basic-landing-page/basic-landing-page/css/style.css",
+		"/C/Users/user/Downloads/basic-landing-page/basic-landing-page/css/free/data/_mixins.css",
+		"/C/Users/user/Downloads/basic-landing-page/basic-landing-page/css/free/data/_colors.css",
+		"/C/xampp/htdocs/Training 6 weeks project/main.php",
+		"/C/Users/user/Downloads/freebie-footer-templates/css/demo.css",
+		"/C/Users/user/Downloads/freebie-footer-templates/footer-distributed-with-address-and-phones.html",
+		"/C/Users/user/Downloads/freebie-footer-templates/css/footer-distributed-with-address-and-phones.css",
+		"/C/xampp/htdocs/differentlyabled/main.php",
+		"/C/xampp/htdocs/differentlyabled/include/abc.php",
+		"/C/xampp/htdocs/differentlyabled/include/config.php",
+		"/C/xampp/htdocs/differentlyabled/include/css_js.php",
+		"/C/xampp/htdocs/differentlyabled/include/footer.php",
+		"/C/xampp/htdocs/differentlyabled/include/header1 - Copy.php",
+		"/C/xampp/htdocs/differentlyabled/include/header1.php",
+		"/C/xampp/htdocs/differentlyabled/include/links.php",
+		"/C/xampp/htdocs/differentlyabled/include/login-qrcode.php",
+		"/C/xampp/htdocs/differentlyabled/include/session_destroy.php",
+		"/C/xampp/htdocs/differentlyabled/include/session_start.php",
+		"/C/xampp/htdocs/differentlyabled/index.php",
+		"/C/xampp/htdocs/differentlyabled/pages/default.php",
+		"/F/project CV maker/bootstrap-material-design-master/index.html",
+		"/C/xampp/htdocs/training/day 7/hwActivity.php",
+		"/C/xampp/htdocs/Training 6 weeks project/login.html",
+		"/C/Users/user/Desktop/vue-js/index.html",
+		"/C/xampp/htdocs/training/day8/countPattern.php",
+		"/C/xampp/htdocs/training/day9/continue.php",
+		"/C/xampp/htdocs/training/day9/array.php",
+		"/C/xampp/htdocs/training/day9/arrayLoop.php",
+		"/C/xampp/htdocs/training/day8/while.php",
+		"/C/xampp/htdocs/training/day8/whileEven.php",
+		"/C/xampp/htdocs/training/day8/table55.php",
+		"/C/xampp/htdocs/training/day8/pattern1.php",
+		"/C/xampp/htdocs/training/day8/pyramid.php",
+		"/C/xampp/htdocs/training/day8/pyramidInvert.php",
+		"/C/xampp/htdocs/training/day 7/ifelse.php",
+		"/C/xampp/htdocs/training/day 7/if.php",
+		"/C/xampp/htdocs/training/index.php",
+		"/C/xampp/htdocs/training/DAY6/operator.php",
+		"/C/xampp/htdocs/training/day 7/weekendSwitch.php",
+		"/C/xampp/htdocs/training/day 7/voteAgeActivity.php",
+		"/C/xampp/htdocs/Training 6 weeks project/index.html",
+		"/C/xampp/htdocs/pixelDrop php/day5/form.html",
+		"/C/xampp/htdocs/training/day 7/hwActivity",
+		"/C/xampp/htdocs/training/day 7/one.php",
+		"/C/xampp/htdocs/pixelDrop php/day5/hw.html",
+		"/C/xampp/htdocs/pixelDrop php/day4/activityCss.html",
+		"/C/xampp/htdocs/pixelDrop php/day4/css2.html",
+		"/C/xampp/htdocs/pixelDrop php/day4/css3.html",
+		"/C/Users/user/Desktop/tnp/database.html",
+		"/C/xampp/htdocs/pixelDrop php/day4/css.html",
+		"/C/xampp/htdocs/pixelDrop php/day3/website/contact.html",
+		"/C/xampp/htdocs/pixelDrop php/day3/website/about.html",
+		"/C/xampp/htdocs/pixelDrop php/day3/website/home.html",
+		"/C/xampp/htdocs/pixelDrop php/day3/anchorTag.html",
+		"/C/Users/user/Desktop/neha/links.php",
+		"/C/xampp/htdocs/pixelDrop php/day2/typography.html",
+		"/C/xampp/htdocs/pixelDrop php/day2/list.html",
+		"/C/xampp/htdocs/pixelDrop php/day2/table.html",
+		"/C/xampp/htdocs/pixelDrop php/day2/media.html",
+		"/C/xampp/htdocs/project LaTeX/start.html",
+		"/C/xampp/htdocs/pixelDrop php/day2/1.html",
+		"/C/xampp/htdocs/wtLAB/q8/p1.php",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 6/index.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 6/assets/js/scripts.js",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 2/p2.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 2/p3.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 3/p2.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 2/p1.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 2/p1",
+		"/F/JUST Starting/your-first-pwapp-master/work/index.html",
+		"/C/Users/user/Desktop/wt.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 2/p2",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 1/p7.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 1/p6.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 1/p5.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 1/p4.html",
+		"/C/Users/user/Google Drive/2nd Year/4th Sem/WT Lab Practical/Practical 1/p3.html",
+		"/F/JUST Starting/your-first-pwapp-master/final/manifest.json",
+		"/F/JUST Starting/your-first-pwapp-master/work/scripts/app.js",
+		"/F/JUST Starting/your-first-pwapp-master/work/styles/inline.css",
+		"/C/xampp/htdocs/differentlyabled/ajax/ajax.php",
+		"/C/xampp/htdocs/CodeIgniter-3.1.4/application/config/database.php",
+		"/C/xampp/htdocs/CodeIgniter-3.1.4/application/config/config.php",
+		"/C/xampp/htdocs/CodeIgniter-3.1.4/application/config/autoload.php",
+		"/C/xampp/htdocs/CodeIgniter-3.1.4/application/models/Login_model.php",
+		"/C/xampp/htdocs/CodeIgniter-3.1.4/application/controllers/Login.php",
+		"/C/xampp/htdocs/CodeIgniter-3.1.4/application/views/login.php",
+		"/C/xampp/htdocs/wordpress/wp-admin/about.php",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 6/index.html",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 6/assets/css/style.css",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 6/assets/js/scripts.js",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 4/p4_1.css",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 4/p4_1.html",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 3/p2.html",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 3/p2.css",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 3/p1.css",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 3/P1.html",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 3/p1.js",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 2/p3.js",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 2/p2.html",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 2/p3.html",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 2/p2.js",
+		"/C/xampp/htdocs/wtLAB/live-username-availability-check-using-php-and-jquery-ajax/backend-search.php",
+		"/C/xampp/htdocs/wtLAB/live-username-availability-check-using-php-and-jquery-ajax/search-form.php",
+		"/C/xampp/htdocs/wtLAB/live-username-availability-check-using-php-and-jquery-ajax/check_availability.php",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 8/p1.php",
+		"/F/Softwares/live-username-availability-check-using-php-and-jquery-ajax/live-username-availability-check-using-php-and-jquery-ajax/dbcontroller.php",
+		"/F/Softwares/live-username-availability-check-using-php-and-jquery-ajax/live-username-availability-check-using-php-and-jquery-ajax/check_availability.php",
+		"/F/Softwares/live-username-availability-check-using-php-and-jquery-ajax/live-username-availability-check-using-php-and-jquery-ajax/index.php",
+		"/C/xampp/htdocs/wtLAB/p11.php",
+		"/C/xampp/htdocs/wtLAB/p10/delete.php",
+		"/C/xampp/htdocs/wtLAB/p10/records.php",
+		"/C/xampp/htdocs/wtLAB/p10/view.php",
+		"/C/xampp/htdocs/wtLAB/p10/connect-db.php",
+		"/C/xampp/htdocs/wtLAB/p1.php",
+		"/C/xampp/htdocs/wtLAB/p8.php",
+		"/C/Users/user/Google Drive/WT Lab Practical/Practical 7/p1.html",
+		"/C/xampp/htdocs/wtLAB/a.php"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			"footer",
+			"css",
+			"purple",
+			"wow fadeIn",
+			"wow",
+			"button",
+			"a",
+			"div",
+			"company",
+			"about-company",
+			"p",
+			"div",
+			"8",
+			"year",
+			"50px",
+			"300px",
+			"float: left;",
+			"150px",
+			"25px",
+			"float",
+			"50px",
+			"15px",
+			"150px",
+			"300px",
+			"70px",
+			"50",
+			"clear",
+			"300px",
+			"33",
+			"Li",
+			"value",
+			"input",
+			">\n",
+			"pagi",
+			"<br>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "training 6 weeks.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

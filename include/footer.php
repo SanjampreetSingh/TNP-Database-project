@@ -1,6 +1,11 @@
-<footer class="footer-distributed page-footer blue">
-	<div class="footer-left">
+<div class="foot">
+<!-- footer starts -->
+<footer class="footer-distributed blue">
+
+	<!-- FOOTER LEFT SECTION -->
+	<section class="footer-left">
 		<a href="#"><h3>Academic<span> Section</span></h3></a>
+		<!-- links -->
 		<p class="footer-links">
 			<a href="#">Home</a>
 			·
@@ -10,9 +15,11 @@
 			·
 			<a href="#">Contact</a>
 		</p>
-	</div>
-	<div class="footer-center">
-		<div>
+	</section>
+
+	<!-- FOOTER CENTER SECTION -->
+	<section class="footer-center">
+		<div>	<!-- contact details -->
 			<i class="fa fa-map-marker"></i>
 			<p><span>792-G SBS Nagar</span> Ludhiana, Punjab</p>
 		</div>
@@ -24,12 +31,15 @@
 			<i class="fa fa-envelope"></i>
 			<p><a href="mailto:sanjam531@gmail.com">sanjam531@gmail.com</a></p>
 		</div>
-	</div>
+	</section>
+
+	<!-- FOOTER RIGHT SECTION -->
 	<secton class="footer-right">
 		<p class="footer-me-about">
 			<span>About Me</span>
 			I am Sanjampreet Singh.D3IT Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507967. <br/> #iView	
 		</p>
+		<!-- SOCIAL LINKS -->
 		<div class="footer-icons">
 			<a href="#"><i class="fa fa-facebook"></i></a>
 			<a href="#"><i class="fa fa-twitter"></i></a>
@@ -37,11 +47,14 @@
 			<a href="#"><i class="fa fa-github"></i></a>
 		</div>
 	</secton>
+
 </footer>
 <!--/.Footer-->
+</div>
 
 <!-- SCRIPTS -->
 
+<!-- JS Liberary -->
 <!-- JQuery -->
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <!-- Bootstrap tooltips -->
@@ -52,7 +65,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
 <!-- wow js animate -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.2/wow.min.js"></script>
+
+<!-- custom js files -->
 <!-- default page js -->
 <script src="assets/js/default-page.js"></script>
+
 </body>
 </html>
