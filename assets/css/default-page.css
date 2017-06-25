@@ -3,12 +3,6 @@
  .view {
     height: 100%;
 }
-/* Navigation*/
-.scrolling-navbar {
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
 
 /*Call to action*/
 

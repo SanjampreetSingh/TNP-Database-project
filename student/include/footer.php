@@ -3,7 +3,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<!-- FOOTER LEFT SECTION -->
-			<section class="col-md-5">
+			<section class="footer-left col-md-5">
 				<a href="#"><h3 class="project-name">Academic Section</h3></a>
 				<!-- links -->
 				<p class="footer-links">
@@ -53,7 +53,7 @@
 	<!--Copyright-->
 	<div class="footer-copyright">
 		<div class="container">
-			© 2015 Copyright: <a href="#">Academic Section</a>
+			© 2017 Copyright: <a href="#">Academic Section</a>
 
 		</div>
 	</div>

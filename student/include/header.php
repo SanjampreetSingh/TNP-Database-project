@@ -36,6 +36,7 @@
 	<!-- login css -->
 	<link rel="stylesheet" href="assets/css/login.css" type="text/css">
 
+
 </head>
 
 <body>
@@ -61,15 +62,20 @@
 							<!-- right buttons -->
 							<ul class="nav navbar-nav nav-flex-icons ml-auto">
 								<li class="nav-item">
-									<a href="#" id="show_login" class="nav-link waves-effect waves-light"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</a>
-								</li>
-							</ul>
-							<!-- right buttons ends -->
-
-						</div>
+									<a href="#" id="resume" class="nav-link waves-effect waves-light"><i class="fa fa-file-text" aria-hidden="true"></i> Resume</a>
+								</li><li class="nav-item">
+								<a href="#" id="jobs" class="nav-link waves-effect waves-light"><i class="fa fa-envelope-open" aria-hidden="true"></i> Jobs</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" id="logout" class="nav-link waves-effect waves-light"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+							</li>
+						</ul>
+						<!-- right buttons ends -->
+						
 					</div>
-				</nav>
-			</div>
+				</div>
+			</nav>
 		</div>
-	</header>
+	</div>
+</header>
 <!-- navbar ends -->
