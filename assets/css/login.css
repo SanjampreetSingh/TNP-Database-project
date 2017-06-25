@@ -1,0 +1,12 @@
+.login {
+	margin-top: 100px;   
+}
+.md-form label{
+	color:#1a78c2;
+}
+/*.md-form input :focus {
+::-webkit-input-placeholder { color:#2196F3;  }
+::-moz-placeholder { color:#2196F3;  }  firefox 19+ 
+:-ms-input-placeholder { color:#2196F3;  } ie
+input:-moz-placeholder { color:#2196F3;  }}
+*/

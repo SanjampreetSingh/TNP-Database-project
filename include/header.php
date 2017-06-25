@@ -21,48 +21,53 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"  type="text/css">
 	<!-- MD Bootstrap -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.css" integrity="sha256-aBmgbqGBEnK84lcgBASvkn6MkJnImzup6fKxojBRvbo=" crossorigin="anonymous" />
 	<!-- animate css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	
 	
 	<!-- custom css files -->
 	<!-- footer css -->
 	<link rel="stylesheet" href="assets/css/footer.css" type="text/css">
 	<!-- default page css -->
-	
 	<link rel="stylesheet" href="assets/css/default-page.css" type="text/css">
+	<!-- login css -->
+	<link rel="stylesheet" href="assets/css/login.css" type="text/css">
+
 </head>
 
 <body>
 
 	<!-- navbar -->
 	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="navbar navbar-toggleable-md fixed-top navbar-dark scrolling-navbar blue">
+					<div class="container">
 
-		<nav class="navbar navbar-toggleable-md fixed-top navbar-dark scrolling-navbar blue" style="margin-bottom:10px; ">
-			<div class="container">
+						<!-- collapse button -->
+						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<!-- collapse button ends -->
 
-				<!-- collapse button -->
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<!-- collapse button ends -->
+						<a class="navbar-brand" href="#">
+							<div><i class="fa fa-graduation-cap fa-lg"></i> <span class="hidden-md-down">Academic Section</span></div>
+						</a>
+						<div class="collapse navbar-collapse" id="navbarNav1">
 
-				<a class="navbar-brand" href="#">
-					<div><i class="fa fa-graduation-cap fa-lg"></i> <span class="hidden-md-down">Academic Section</span></div>
-				</a>
-				<div class="collapse navbar-collapse" id="navbarNav1">
+							<!-- right buttons -->
+							<ul class="nav navbar-nav nav-flex-icons ml-auto">
+								<li class="nav-item">
+									<a href="#" id="show_login" class="nav-link waves-effect waves-light"><i class="fa fa-sign-in"></i> Log In</a>
+								</li>
+							</ul>
+							<!-- right buttons ends -->
 
-					<!-- right buttons -->
-					<ul class="nav navbar-nav nav-flex-icons ml-auto">
-						<li class="nav-item">
-							<a href="#" id="show_login" class="nav-link waves-effect waves-light"><i class="fa fa-sign-in"></i> Log In</a>
-						</li>
-					</ul>
-					<!-- right buttons ends -->
-
-				</div>
+						</div>
+					</div>
+				</nav>
 			</div>
-		</nav>
-
+		</div>
 	</header>
 <!-- navbar ends -->

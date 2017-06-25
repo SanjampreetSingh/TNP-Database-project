@@ -1,82 +1,30 @@
-body{
-	height: 100%;
-	margin:0;
+/* The project*/
+.page-footer1{
+	margin-top:0px!;
 }
-html {
-    
-    min-height: 100%;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    position: relative;
-}
-
-.footer-distributed{
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 55px 50px;
-	margin-top: 80px;
-	height: 310px;
-	bottom: 0;
-	position:relative;
-}
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left{
-	width: 40%;
-}
-
-/* The project logo */
-
-.footer-distributed h3{
+.project-name{
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
 }
 
-.footer-distributed h3 span{
-	color:  #ffffff;
-}
-
 /* Footer links */
-
-.footer-distributed .footer-links{
+.footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
 }
 
-.footer-distributed .footer-links a{
+..footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
 }
 
-.footer-distributed .footer-company-name{
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-}
-
 /* Footer Center */
 
-.footer-distributed .footer-center{
-	width: 35%;
-}
-
-.footer-distributed .footer-center i{
+.footer-center i{
 	background-color:  #1a78c2;
 	color: #ffffff;
 	font-size: 25px;
@@ -89,23 +37,16 @@ html {
 	vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer-center p{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
 }
 
 .footer-distributed .footer-center p a{
@@ -115,12 +56,7 @@ html {
 
 
 /* Footer Right */
-
-.footer-distributed .footer-right{
-	width: 20%;
-}
-
-.footer-distributed .footer-me-about{
+.footer-me-about{
 	line-height: 20px;
 	color:  #ffffff;
 	font-size: 13px;
@@ -128,7 +64,7 @@ html {
 	margin: 0;
 }
 
-.footer-distributed .footer-me-about span{
+.footer-me-about span{
 	display: block;
 	color:  #ffffff;
 	font-size: 14px;
@@ -136,11 +72,11 @@ html {
 	margin-bottom: 20px;
 }
 
-.footer-distributed .footer-icons{
+.footer-icons{
 	margin-top: 25px;
 }
 
-.footer-distributed .footer-icons a{
+.footer-icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -154,28 +90,5 @@ html {
 	line-height: 35px;
 
 	margin-right: 3px;
-	margin-bottom: 5px;
-}
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 880px) {
-
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	}
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-
+	margin-bottom: 10px;
 }

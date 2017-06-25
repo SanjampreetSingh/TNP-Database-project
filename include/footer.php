@@ -1,56 +1,68 @@
-<div class="foot">
 <!-- footer starts -->
-<footer class="footer-distributed blue">
+<footer class="center-on-small-only blue page-footer1 page-footer blue">
+	<div class="container-fluid">
+		<div class="row">
+			<!-- FOOTER LEFT SECTION -->
+			<section class="footer-left col-md-5">
+				<a href="#"><h3 class="project-name">Academic Section</h3></a>
+				<!-- links -->
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Blog</a>
+					·
+					<a href="#">Faq</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+			</section>
 
-	<!-- FOOTER LEFT SECTION -->
-	<section class="footer-left">
-		<a href="#"><h3>Academic<span> Section</span></h3></a>
-		<!-- links -->
-		<p class="footer-links">
-			<a href="#">Home</a>
-			·
-			<a href="#">Blog</a>
-			·
-			<a href="#">Faq</a>
-			·
-			<a href="#">Contact</a>
-		</p>
-	</section>
+			<!-- FOOTER CENTER SECTION -->
+			<section class="footer-center col-md-4">
+				<div>	<!-- contact details -->
+					<i class="fa fa-map-marker"></i>
+					<p>792-G SBS Nagar<br> Ludhiana, Punjab</p>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 98153-33040</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:sanjam531@gmail.com">sanjam531@gmail.com</a></p>
+				</div>
+			</section>
 
-	<!-- FOOTER CENTER SECTION -->
-	<section class="footer-center">
-		<div>	<!-- contact details -->
-			<i class="fa fa-map-marker"></i>
-			<p><span>792-G SBS Nagar</span> Ludhiana, Punjab</p>
+			<!-- FOOTER RIGHT SECTION -->
+			<secton class="col-md-3">
+				<p class="footer-me-about">
+					<span>About Me</span>
+					I am Sanjampreet Singh.D3IT Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507967. <br/> #iView	
+				</p>
+				<!-- SOCIAL LINKS -->
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+				</div>
+			</secton>
 		</div>
-		<div>
-			<i class="fa fa-phone"></i>
-			<p>+91 98153-33040</p>
-		</div>
-		<div>
-			<i class="fa fa-envelope"></i>
-			<p><a href="mailto:sanjam531@gmail.com">sanjam531@gmail.com</a></p>
-		</div>
-	</section>
+	</div>
 
-	<!-- FOOTER RIGHT SECTION -->
-	<secton class="footer-right">
-		<p class="footer-me-about">
-			<span>About Me</span>
-			I am Sanjampreet Singh.D3IT Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507967. <br/> #iView	
-		</p>
-		<!-- SOCIAL LINKS -->
-		<div class="footer-icons">
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-linkedin"></i></a>
-			<a href="#"><i class="fa fa-github"></i></a>
+	<!--Copyright-->
+	<div class="footer-copyright">
+		<div class="container">
+			© 2015 Copyright: <a href="#">Academic Section</a>
+
 		</div>
-	</secton>
+	</div>
+	<!--/.Copyright-->
 
 </footer>
 <!--/.Footer-->
-</div>
+
+
 
 <!-- SCRIPTS -->
 
@@ -65,6 +77,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
 <!-- wow js animate -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.2/wow.min.js"></script>
+
 
 <!-- custom js files -->
 <!-- default page js -->
