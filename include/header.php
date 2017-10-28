@@ -13,7 +13,7 @@
 	<meta name="Author" content="Sanjampreet Singh" />
 	
 	
-	<title>Material Design Bootstrap</title>
+	<title>GNDEC|Academic Section</title>
 
 	<!-- CSS Liberary Files -->	
 	<!-- Bootstrap core CSS -->
@@ -56,12 +56,13 @@
 						<a class="navbar-brand" href="#">
 							<div><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i> <span class="hidden-md-down">Academic Section</span></div>
 						</a>
+						
 						<div class="collapse navbar-collapse" id="navbarNav1">
 
 							<!-- right buttons -->
 							<ul class="nav navbar-nav nav-flex-icons ml-auto">
 								<li class="nav-item">
-									<a href="#" id="show_login" class="nav-link waves-effect waves-light"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</a>
+									<a href="index.php?pg=login" id="show_login" class="nav-link waves-effect waves-light"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</a>
 								</li>
 							</ul>
 							<!-- right buttons ends -->

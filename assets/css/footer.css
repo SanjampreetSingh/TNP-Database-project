@@ -15,7 +15,7 @@
 	padding: 0;
 }
 
-..footer-links a{
+.footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
