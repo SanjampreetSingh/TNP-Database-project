@@ -1,7 +1,5 @@
 <?php 
-
 $con = mysqli_connect("localhost","root","","tpo");
-
 // Check connection
 if (mysqli_connect_errno())
   {

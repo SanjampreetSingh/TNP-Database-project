@@ -28,7 +28,7 @@
             <ul class="dropdown-menu">       
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="../admin_assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="../admin_assets/dist/img/user2-160x160.png" class="img-circle" alt="User Image">
                 <p>
                  <?php echo "NAME"; ?>
                   <small><?php echo "Profile"; ?></small>
@@ -36,10 +36,10 @@
               </li>   
               <!-- Menu Footer-->
               <li class="user-body">
-                <div class="pull-left">
+                <!-- <div class="pull-left">
                   <a href="#" class="btn btn-success">Change Password</a>
-                </div>
-                <div class="pull-right">
+                </div> -->
+                <div class="text-center">
                   <a href="index.php?pg=logout" class="btn btn-danger">Sign out</a>
                 </div>
               </li>

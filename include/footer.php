@@ -4,10 +4,10 @@
 		<div class="row">
 			<!-- FOOTER LEFT SECTION -->
 			<section class="col-md-5">
-				<a href="#"><h3 class="project-name">Academic Section</h3></a>
+				<a href="index.php?pg=home"><h3 class="project-name">Academic Section</h3></a>
 				<!-- links -->
 				<p class="footer-links">
-					<a href="#">Home</a>
+					<a href="index.php?pg=home">Home</a>
 					·
 					<a href="#">Blog</a>
 					·
@@ -52,17 +52,14 @@
 
 	<!--Copyright-->
 	<div class="footer-copyright">
-		<div class="container">
-			© 2015 Copyright: <a href="#">Academic Section</a>
-
+		<div class="pull-left">
+			©2017 Copyright: <a href="#">Academic Section</a>
 		</div>
 	</div>
 	<!--/.Copyright-->
 
 </footer>
 <!--/.Footer-->
-
-
 
 <!-- SCRIPTS -->
 
@@ -77,7 +74,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
 <!-- wow js animate -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.2/wow.min.js"></script>
-
 
 <!-- custom js files -->
 <!-- default page js -->

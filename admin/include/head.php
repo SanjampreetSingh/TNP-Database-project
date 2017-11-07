@@ -19,14 +19,10 @@
   <link rel="stylesheet" href="../admin_assets/dist/css/skins/_all-skins.min.css">
   <!-- iCheck -->
   <link rel="stylesheet" href="../admin_assets/plugins/iCheck/flat/blue.css">
-  <!-- jvectormap -->
-  <link rel="stylesheet" href="../admin_assets/plugins/jvectormap/jquery-jvectormap-1.2.2.css">
   <!-- Date Picker -->
   <link rel="stylesheet" href="../admin_assets/plugins/datepicker/datepicker3.css">
   <!-- Daterange picker -->
   <link rel="stylesheet" href="../admin_assets/plugins/daterangepicker/daterangepicker.css">
-  <!-- bootstrap wysihtml5 - text editor -->
-  <link rel="stylesheet" href="../admin_assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
   <!-- wizard  -->
   <link rel="stylesheet" href="../admin_assets/css/paper-bootstrap-wizard.css"/>
   <!-- icon theme -->

@@ -4,9 +4,9 @@
 	<section class="sidebar">
 		<!-- Sidebar Menu -->
 		<ul class="sidebar-menu">
-			<li class="header"><?php echo "NAME"; ?></li>
+			<li class="header">Menu Bar</li>
 			<!-- Optionally, you can add icons to the links -->
-			<li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
+			<li class="active"><a href="index.php?pg=home"><i class="fa fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
 			<li class="treeview">
 				<a href="#"><i class="fa fa-link"></i> <span>Control Panel</span>
 					<span class="pull-right-container">
@@ -39,17 +39,6 @@
 				</ul>
 			</li>
 			<li><a href="index.php?pg=job"><i class="fa fa-link"></i> <span>Job Section</span></a></li>
-			<li class="treeview">
-				<a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
-					<span class="pull-right-container">
-						<i class="fa fa-angle-left pull-right"></i>
-					</span>
-				</a>
-				<ul class="treeview-menu">
-					<li><a href="#">Link in level 2</a></li>
-					<li><a href="#">Link in level 2</a></li>
-				</ul>
-			</li>
 		</ul>
 		<!-- /.sidebar-menu -->
 	</section>

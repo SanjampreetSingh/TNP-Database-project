@@ -1,11 +1,5 @@
-
-  <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
-    <div class="pull-right hidden-xs">
-      Anything you want
-    </div>
-    <!-- Default to the left -->
-    <strong>Copyright &copy; 2017 <a href="#">Training and Placement Cell</a>.</strong> All rights reserved.
-  </footer>
-  
+<!-- Main Footer -->
+<footer class="main-footer">
+	<!-- Default to the left -->
+	<strong>Copyright &copy; 2017 <a href="index.php?pg=home">Academic Section, GNDEC</a>.</strong> All rights reserved.
+</footer>

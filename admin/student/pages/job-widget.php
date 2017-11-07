@@ -14,7 +14,7 @@
           <!-- Add the bg color to the header using any of the bg-* classes -->
           <div class="widget-user-header bg-yellow">
             <div class="widget-user-image">
-              <img class="img-circle" src="../admin_assets/dist/img/user7-128x128.jpg" alt="<?php echo "Company Name Logo"; ?>">
+              <img class="img-circle" src="../admin_assets/dist/img/boxed-bg.png" alt="<?php echo "Company Name Logo"; ?>">
             </div>
             <!-- /.widget-user-image -->
             <div class="user-block">

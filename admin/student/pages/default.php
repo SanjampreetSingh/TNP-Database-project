@@ -1,4 +1,3 @@
-<!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
   <section class="content-header">
@@ -149,9 +148,9 @@
 
 
 
-    <div class="col-xs-12">
+    <!-- <div class="col-xs-12"> -->
       <!-- LINE CHART -->
-      <div class="box box-info">
+      <!-- <div class="box box-info">
         <div class="box-header with-border">
           <h3 class="box-title">Performance Graph</h3>
 
@@ -164,14 +163,14 @@
           <div class="chart">
             <canvas id="lineChart" style="height:250px"></canvas>
           </div>
-        </div>
+        </div> -->
         <!-- /.box-body -->
-      </div>
+      <!-- </div> -->
       <!-- /.box -->
-    </div>
+    <!-- </div> -->
 
 
   </section>
   <!-- /.content -->
 </div>
-<!-- /.content-wrapper -->
+<!-- /.content-wrapper

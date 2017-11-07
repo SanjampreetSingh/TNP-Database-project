@@ -8,7 +8,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	
 	
-	<meta name="keywords" content="GNDEC,GNE,iView" />
+	<meta name="keywords" content="GNDEC,GNE" />
 	<meta name="description" content="" />
 	<meta name="Author" content="Sanjampreet Singh" />
 	
@@ -55,7 +55,7 @@
 						</button>
 						<!-- collapse button ends -->
 
-						<a class="navbar-brand" href="#">
+						<a class="navbar-brand" href="index.php?pg=home">
 							<div><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i> <span class="hidden-md-down">Academic Section</span></div>
 						</a>
 						

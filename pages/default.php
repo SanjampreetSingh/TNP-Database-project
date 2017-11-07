@@ -8,8 +8,8 @@
                     <p class="wow fadeInDown">Login to Enter Possibilities of Life</p>
                 </li>
                 <li>
-                    <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg wow fadeInLeft" data-wow-delay="0.2s" rel="nofollow">Login Page</a>
-                    <a href="#about" class="btn btn-default btn-lg wow fadeInRight">Learn More</a> 
+                    <a target="_blank" href="index.php?pg=login" class="btn btn-primary btn-lg wow fadeInLeft" data-wow-delay="0.2s" rel="nofollow">Login Page</a>
+                    <!-- <a href="#about" class="btn btn-default btn-lg wow fadeInRight">Learn More</a>  -->
                 </li>
             </ul>
         </div>
@@ -179,4 +179,3 @@
 
     </div>
     <!--/ Main container-->
-
