@@ -9,7 +9,7 @@
 			<li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
 			<li><a href="index.php?pg=database"><i class="fa fa-link"></i> <span>Upload Data Base</span></a></li>
 			<li><a href="index.php?pg=form"><i class="fa fa-link"></i> <span>Job Notification</span></a></li>
-			<li><a href="index.php?pg=form"><i class="fa fa-link"></i> <span>Generate Excel File</span></a></li>
+			<li><a href="index.php?pg=export"><i class="fa fa-link"></i> <span>Generate Excel File</span></a></li>
 			<li class="treeview">
 				<a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
 					<span class="pull-right-container">

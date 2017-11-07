@@ -9,12 +9,12 @@
 
 
   <div class="card wizard-card" data-color="green" id="wizardProfile">
-    <form action="" method="post" enctype="multipart/form-data">
+    <form action="index.php?pg=generate" method="post" enctype="multipart/form-data">
 
 
       <div class="header text-center">
-        <h3 class="title">Create Job Form</h3>
-        <p class="category">This information will help you create job notification.</p>
+        <h3 class="title">Generate Excel</h3>
+        <p class="category">This information will help you filter students.</p>
       </div>
 
 
@@ -25,9 +25,9 @@
         </div>
 
         <ul>
-          <li><a href="#about" data-toggle="tab"><div class="icon-circle"><i class="ti-user"></i></div>About Job</a></li>
           <li><a href="#eligibility" data-toggle="tab"><div class="icon-circle"><i class="ti-map"></i></div>Eligibility</a></li>
           <li><a href="#details" data-toggle="tab"><div class="icon-circle"><i class="ti-settings"></i></div>Required Details</a></li>
+          <!-- <li><a href="#table_export" data-toggle="tab"><div class="icon-circle"><i class="ti-user"></i></div>Result</a></li> -->
         </ul>
 
       </div>
@@ -35,48 +35,6 @@
 
       <div class="tab-content">
 
-        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-        <div class="tab-pane" id="about">
-
-          <h5 class="info-text">Tell about Company &amp Job</h5>
-
-          <div class="row">
-
-            <div class="col-sm-4">
-              <div class="picture-container">
-                <div class="picture">
-                  <img src="" class="picture-src" id="wizardPicturePreview" title=""  />
-                  <input type="file" id="wizard-picture" name="img">
-                </div>
-                <h6>Choose Picture</h6>
-              </div>
-            </div>
-
-            <div class="col-sm-7">
-
-              <div class="form-group">
-                <label>Company Name <small>(required)</small></label>
-                <input name="companyName" type="text" class="form-control" placeholder="Company Name">
-              </div>
-
-              <div class="form-group">
-                <label>Time Limit <small>(required)</small></label>
-                <input name="timeLimit" type="datetime-local" class="form-control" placeholder="DD/MM/YYYY hr:mm AM/PM">
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-sm-12">
-            <div class="form-group">
-              <label>Post <small>(required)</small></label>
-              <textarea class="form-control" placeholder="" rows="10" name="postData" class="textarea"></textarea>
-            </div>
-          </div>
-
-        </div>
 
         <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
@@ -334,13 +292,47 @@
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
+      <!--   <div class="tab-pane" id="table_export">
+
+          <h5 class="info-text">Filtered Student</h5>
+
+          <div class="row">
+
+           <div class="col-md-12">
+                               
+               <div class="fresh-table toolbar-color-green">
+                    
+               
+                   <div class="toolbar">
+                       <button id="alertBtn" class="btn btn-default">Export Excel</button>
+                   </div>
+                   
+                   <table id="fresh-table" class="table">
+                       <thead>
+                           <th data-field="id">ID</th>
+                       </thead>
+                       <tbody>
+                           <tr>
+                               <td></td>
+                           </tr>                            
+                       </tbody>
+                   </table>
+               </div>
+               
+               
+           </div>
+
+          </div>
+        </div> -->
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
 </div>
 <!-- tab content -->
 
 <div class="wizard-footer">
   <div class="pull-right">
     <input type='button' class='btn btn-next btn-fill btn-warning btn-wd' name='next' value='Next' />
-    <input type='submit' class='btn btn-finish btn-fill btn-warning btn-wd' name='submit' value='Submit' />
+    <input type='submit' class='btn btn-finish btn-fill btn-warning btn-wd' name='submit_tnp' value='Submit' />
   </div>
 
   <div class="pull-left">

@@ -1,9 +1,8 @@
-<?php 
-// ob_start();
-// session_start();
-//  if (!isset($_SESSION['id'])) {
-//    header("location:../../index.php");
-//  } 
+<?php ob_start();
+session_start();
+if (!isset($_SESSION['iid'])) {
+ header("location:../../index.php");
+} 
 
 include_once 'include/config.php';
 include_once 'include/links.php';
@@ -11,24 +10,29 @@ include_once '../include/head.php';
 include_once 'include/header.php';
 include_once 'include/sidebar.php';
 
-
 if(isset($_GET['pg'])){
-switch ($_GET['pg']) {
-  case 'database':
-  include 'pages/database.php';
-  break;
-  case 'logout':
-  include 'pages/logout.php';
-  break;
-  case 'sub-marks':
-  include 'pages/sub-marks.php';
-  break;
-  case 'form':
-  include 'pages/form.php';
+  switch ($_GET['pg']) {
+    case 'database':
+    include 'pages/database.php';
     break;
-  default:
-  include 'pages/default.php';
-}
+    case 'logout':
+    include 'pages/logout.php';
+    break;
+    case 'sub-marks':
+    include 'pages/sub-marks.php';
+    break;
+    case 'export':
+    include 'pages/generateExcel.php';
+    break;
+    case 'generate':
+    include 'pages/tableExcel.php';
+    break;
+    case 'form':
+    include 'pages/form.php';
+    break;
+    default:
+    include 'pages/default.php';
+  }
 }
 else{
   include 'pages/default.php';

@@ -1,10 +1,13 @@
 <?php ob_start();
 session_start(); 
 
-if (isset($_SESSION['id'])) {
+if (isset($_SESSION['sid'])) {
     header("location:admin/student/index.php");
-}   
-    echo $_SESSION['id'];
+}
+if (isset($_SESSION['iid'])) {
+    header("location:admin/institute/index.php");
+}    
+
 ?>
 <div class="container-fluid">
     <div class="row login">
@@ -56,11 +59,18 @@ if (isset($_POST['login'])) {
    $username=mysqli_real_escape_string($con,$_POST['username']);
    $password=md5($_POST['password']);
    $query="select * from student_login where username='$username' and password='$password'";
+   $query1="select * from institute_login where username='$username' and password='$password'";
    $exe=mysqli_query($con,$query) or die(mysqli_error($con));
+   $exe1=mysqli_query($con,$query1) or die(mysqli_error($con));
    $data=mysqli_fetch_array($exe);
+   $data1=mysqli_fetch_array($exe1);
     if (mysqli_num_rows($exe)==1) {
-        $_SESSION["id"]=$data['username'];
+        $_SESSION["sid"]=$data['username'];
         header("location:admin/student/index.php");
+    }
+    elseif (mysqli_num_rows($exe1)==1) {
+        $_SESSION["iid"]=$data1['username'];
+        header("location:admin/institute/index.php");
     }
 }
 ?>
