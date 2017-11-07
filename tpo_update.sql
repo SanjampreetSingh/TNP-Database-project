@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 29, 2017 at 05:12 AM
+-- Generation Time: Nov 06, 2017 at 10:39 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `tpo`
 --
+CREATE DATABASE IF NOT EXISTS `tpo` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `tpo`;
 
 -- --------------------------------------------------------
 
@@ -496,6 +498,25 @@ CREATE TABLE `eligibility` (
 
 INSERT INTO `eligibility` (`eid`, `xPercent`, `xiiPercent`, `diplomaPercent`, `degreePercent`, `branchType`, `branch`, `jid`, `activeBacklog`, `passiveBacklog`, `gender`, `sem5percent`, `yearGap`) VALUES
 (1, 0, 0, 0, 0, 'UG,PG,', 'CSE,EE,Civil,MBA,M.Tech,', 0, NULL, NULL, NULL, NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `institute_login`
+--
+
+CREATE TABLE `institute_login` (
+  `s_id` int(11) NOT NULL,
+  `username` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `institute_login`
+--
+
+INSERT INTO `institute_login` (`s_id`, `username`, `password`) VALUES
+(1, 'tnp', '6b1dfb28f8de3fcaa09128502f5e4695');
 
 -- --------------------------------------------------------
 
@@ -1500,7 +1521,8 @@ CREATE TABLE `student_login` (
 --
 
 INSERT INTO `student_login` (`sr no`, `username`, `password`) VALUES
-(1, 1507967, 'e80b5017098950fc58aad83c8c14978e');
+(1, 1507967, 'e80b5017098950fc58aad83c8c14978e'),
+(2, 1507604, '197040cab5d968ea50e7f80afb32809a');
 
 -- --------------------------------------------------------
 
@@ -1892,6 +1914,12 @@ ALTER TABLE `eligibility`
   ADD KEY `FK_jid` (`jid`);
 
 --
+-- Indexes for table `institute_login`
+--
+ALTER TABLE `institute_login`
+  ADD PRIMARY KEY (`s_id`);
+
+--
 -- Indexes for table `job`
 --
 ALTER TABLE `job`
@@ -2016,6 +2044,11 @@ ALTER TABLE `diplomadetails`
 ALTER TABLE `eligibility`
   MODIFY `eid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
+-- AUTO_INCREMENT for table `institute_login`
+--
+ALTER TABLE `institute_login`
+  MODIFY `s_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
 -- AUTO_INCREMENT for table `personaldetails`
 --
 ALTER TABLE `personaldetails`
@@ -2064,7 +2097,7 @@ ALTER TABLE `sem8`
 -- AUTO_INCREMENT for table `student_login`
 --
 ALTER TABLE `student_login`
-  MODIFY `sr no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `sr no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `tenthdetails`
 --
