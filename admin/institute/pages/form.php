@@ -13,8 +13,10 @@
 
 
         <div class="header text-center">
+        <div class="well text-center bg-green-active">
           <h3 class="title">Create Job Form</h3>
-          <p class="category">This information will help you create job notification.</p>
+          </div>
+          <p class="category">This form will help you create job notification.</p>
         </div>
 
 
@@ -39,7 +41,7 @@
 
           <div class="tab-pane" id="about">
 
-            <h5 class="info-text">Tell about Company &amp Job</h5>
+            <h5 class="info-text">Tell about Company &amp Job details</h5>
 
             <div class="row">
 
@@ -47,7 +49,7 @@
                 <div class="picture-container">
                   <div class="picture">
                     <img src="" class="picture-src" id="wizardPicturePreview" title=""  />
-                    <input type="file" id="wizard-picture" name="img">
+                    <input type="file" id="wizard-picture" name="img" required="required">
                   </div>
                   <h6>Choose Picture</h6>
                 </div>
@@ -57,22 +59,22 @@
 
                 <div class="form-group">
                   <label>Company Name <small>(required)</small></label>
-                  <input name="companyName" type="text" class="form-control" placeholder="Company Name">
+                  <input name="companyName" type="text" class="form-control" placeholder="Company Name" required="required">
                 </div>
 
                 <div class="form-group">
                   <label>Time Limit <small>(required)</small></label>
-                  <input name="timeLimit" type="datetime-local" class="form-control" placeholder="DD/MM/YYYY hr:mm AM/PM">
+                  <input name="timeLimit" type="datetime-local" class="form-control" placeholder="DD/MM/YYYY hr:mm AM/PM" required="required">
                 </div>
 
               </div>
-
+              
             </div>
 
             <div class="col-sm-12">
               <div class="form-group">
                 <label>Post <small>(required)</small></label>
-                <textarea class="form-control" placeholder="" rows="10" name="postData" class="textarea" id="editor1" name="editor1"></textarea>
+                <textarea class="form-control" placeholder="Details about company and job" rows="10" name="postData" class="textarea" id="editor1" name="editor1" required="required">Details about company and job</textarea>
               </div>
             </div>
 

@@ -8,8 +8,9 @@
 <!-- Main content -->
 <section class="content">
   <div class="card">
-    <h3 class="text-center">Upload Data Base</h3>  
-    <br/><br/><br/><br/>  
+    <div class="well text-center bg-green-active">    
+      <h3 class="text-center">Upload Data Base</h3>  
+    </div>
     <form method="post" id="export_excel">  
       <div class="row">
         <div class="col-xs-4 col-xs-offset-1">

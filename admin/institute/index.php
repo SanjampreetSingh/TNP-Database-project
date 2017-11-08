@@ -30,6 +30,9 @@ if(isset($_GET['pg'])){
     case 'form':
     include 'pages/form.php';
     break;
+    case 'profile':
+    include 'pages/profile.php';
+    break;
     default:
     include 'pages/default.php';
   }

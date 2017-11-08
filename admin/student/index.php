@@ -19,6 +19,9 @@ switch ($_GET['pg']) {
 	case 'logout':
 	include 'pages/logout.php';
 	break;
+	case 'profile':
+	include 'pages/profile.php';
+	break;
 	default:
 	include 'pages/default.php';
 

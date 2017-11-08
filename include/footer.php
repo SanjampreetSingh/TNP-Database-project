@@ -8,8 +8,8 @@
 				<!-- links -->
 				<p class="footer-links">
 					<a href="index.php?pg=home">Home</a>
-					·
-					<a href="#">Blog</a>
+					<!-- · -->
+					<!-- <a href="#">Blog</a> -->
 					·
 					<a href="#">Faq</a>
 					·
@@ -37,7 +37,7 @@
 			<secton class="col-md-3">
 				<p class="footer-me-about">
 					<span>About Me</span>
-					I am Sanjampreet Singh.D3IT Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507967. <br/> #iView	
+					I am Sanjampreet Singh.D3IT Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507967. <br/>
 				</p>
 				<!-- SOCIAL LINKS -->
 				<div class="footer-icons">
@@ -53,7 +53,7 @@
 	<!--Copyright-->
 	<div class="footer-copyright">
 		<div class="pull-left">
-			©2017 Copyright: <a href="#">Academic Section</a>
+			<strong>Copyright &copy; 2017 <a href="index.php?pg=home">Academic Section, GNDEC </a></strong>All rights reserved.
 		</div>
 	</div>
 	<!--/.Copyright-->

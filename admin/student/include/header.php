@@ -61,7 +61,7 @@
               <!-- Menu Footer-->
               <li class="user-body">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-primary">Profile</a>
+                  <a href="index.php?pg=profile" class="btn btn-primary">Profile</a>
                 </div>
                 <div class="pull-right">
                   <a href="index.php?pg=logout" class="btn btn-danger">Sign out</a>

@@ -38,7 +38,8 @@
 					<li><a href="#">Semester 8</a></li>
 				</ul>
 			</li>
-			<li><a href="index.php?pg=job"><i class="fa fa-link"></i> <span>Job Section</span></a></li>
+			<li><a href="index.php?pg=profile"><i class="fa fa-link"></i> <span>Profile Verification</span></a></li>
+			<li><a href="index.php?pg=job"><i class="fa fa-link"></i> <span>Job Section <small class="label label-danger">Coming Soon!</small></span></a></li>
 		</ul>
 		<!-- /.sidebar-menu -->
 	</section>

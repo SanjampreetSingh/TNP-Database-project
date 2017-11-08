@@ -10,10 +10,10 @@
 
     <div class="card wizard-card" data-color="green" id="wizardProfile">
       <form action="" method="post" enctype="multipart/form-data">
-
-
         <div class="header text-center">
+        <div class="well text-center bg-green-active">
           <h3 class="title">Generate Excel</h3>
+        </div>  
           <p class="category">This information will help you filter students.</p>
         </div>
 
