@@ -45,7 +45,6 @@ if (isset($_SESSION['iid'])) {
                             </div>
                                 <?php
                             }
-                             # code...
                          } ?>
                         
 
@@ -57,12 +56,12 @@ if (isset($_SESSION['iid'])) {
                 </article>
 
                 <!--Footer-->
-                <footer class="modal-footer">
+                <!-- <footer class="modal-footer">
                     <div class="options">
                         <p>Forgot <a href="#">Password?</a></p>
                     </div>
                 </footer>
-
+ -->
             </div>
             <!--/Form with header-->
         </section>     

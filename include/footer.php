@@ -21,7 +21,7 @@
 			<section class="footer-center col-md-4">
 				<div>	<!-- contact details -->
 					<i class="fa fa-map-marker" aria-hidden="true"></i>
-					<p>792-G SBS Nagar<br> Ludhiana, Punjab</p>
+					<p>#44/100 Block-J B.R.S Nagar<br> Ludhiana, Punjab</p>
 				</div>
 				<div>
 					<i class="fa fa-phone" aria-hidden="true"></i>
@@ -29,7 +29,7 @@
 				</div>
 				<div>
 					<i class="fa fa-envelope" aria-hidden="true"></i>
-					<p><a href="mailto:sanjam531@gmail.com">sanjam531@gmail.com</a></p>
+					<p><a href="mailto:sanjam531@gmail.com">kmvsingh007@gmail.com</a></p>
 				</div>
 			</section>
 
@@ -37,7 +37,7 @@
 			<secton class="col-md-3">
 				<p class="footer-me-about">
 					<span>About Me</span>
-					I am Sanjampreet Singh.D3IT Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507967. <br/>
+					I am Karamveer Singh.D3CSE B1 Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507604. <br/>
 				</p>
 				<!-- SOCIAL LINKS -->
 				<div class="footer-icons">
