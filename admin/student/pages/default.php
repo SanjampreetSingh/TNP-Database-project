@@ -10,7 +10,7 @@
 
     <div class="card wizard-card" data-color="blue" id="wizardProfile">
       <div class="well text-center bg-light-blue-active">
-        <h3>Welcome <?php echo "name !!"; ?></h3>
+        <h3>Welcome <?php echo $share_info['firstName'] ?></h3>
       </div>
       <div class="row">
         <div class="container">
@@ -20,7 +20,7 @@
               <!-- small box -->
               <div class="small-box bg-aqua">
                 <div class="inner">
-                  <h3><?php echo "%age"; ?><sup style="font-size: 20px">%</sup></h3>
+                  <h3><?php if($share_info['sem1_percentage']==''){echo "N.A.";}else{echo $share_info['sem1_percentage'];} ?><sup style="font-size: 20px">%</sup></h3>
                   <p>1<sup>st</sup> Semester</p>
                 </div>
                 <div class="icon">
@@ -36,7 +36,7 @@
               <!-- small box -->
               <div class="small-box bg-green " >
                 <div class="inner">
-                  <h3><?php echo "%age"; ?><sup style="font-size: 20px">%</sup></h3>
+                  <h3><?php if($share_info['sem2_percentage']==''){echo "N.A.";}else{echo $share_info['sem2_percentage'];} ?><sup style="font-size: 20px">%</sup></h3>
                   <p>2<sup>st</sup> Semester</p>
                 </div>
                 <div class="icon">
@@ -52,7 +52,7 @@
               <!-- small box -->
               <div class="small-box bg-yellow">
                 <div class="inner">
-                  <h3><?php echo "%age"; ?><sup style="font-size: 20px">%</sup></h3>
+                  <h3><?php if($share_info['sem3_percentage']==''){echo "N.A.";}else{echo $share_info['sem3_percentage'];} ?><sup style="font-size: 20px">%</sup></h3>
                   <p>3<sup>st</sup> Semester</p>
                 </div>
                 <div class="icon">
@@ -68,7 +68,7 @@
               <!-- small box -->
               <div class="small-box bg-red">
                 <div class="inner">
-                  <h3><?php echo "%age"; ?><sup style="font-size: 20px">%</sup></h3>
+                  <h3><?php if($share_info['sem4_percentage']==''){echo "N.A.";}else{echo $share_info['sem4_percentage'];} ?><sup style="font-size: 20px">%</sup></h3>
                   <p>4<sup>st</sup> Semester</p>
                 </div>
                 <div class="icon">
@@ -89,7 +89,7 @@
               <!-- small box -->
               <div class="small-box bg-aqua">
                 <div class="inner">
-                  <h3><?php echo "%age"; ?><sup style="font-size: 20px">%</sup></h3>
+                  <h3><?php if($share_info['sem5_percentage']==''){echo "N.A.";}else{echo $share_info['sem5_percentage'];} ?><sup style="font-size: 20px">%</sup></h3>
                   <p>5<sup>st</sup> Semester</p>
                 </div>
                 <div class="icon">
@@ -105,7 +105,7 @@
               <!-- small box -->
               <div class="small-box bg-green">
                 <div class="inner">
-                  <h3><?php echo "%age"; ?><sup style="font-size: 20px">%</sup></h3>
+                  <h3><?php if($share_info['sem6_percentage']==''){echo "N.A.";}else{echo $share_info['sem6_percentage'];} ?><sup style="font-size: 20px">%</sup></h3>
                   <p>6<sup>st</sup> Semester</p>
                 </div>
                 <div class="icon">
@@ -121,7 +121,7 @@
               <!-- small box -->
               <div class="small-box bg-yellow">
                 <div class="inner">
-                  <h3><?php echo "%age"; ?><sup style="font-size: 20px">%</sup></h3>
+                  <h3><?php if($share_info['sem7_percentage']==''){echo "N.A.";}else{echo $share_info['sem7_percentage'];} ?><sup style="font-size: 20px">%</sup></h3>
                   <p>7<sup>st</sup> Semester</p>
                 </div>
                 <div class="icon">
@@ -137,7 +137,7 @@
               <!-- small box -->
               <div class="small-box bg-red">
                 <div class="inner">
-                  <h3><?php echo "%age"; ?><sup style="font-size: 20px">%</sup></h3>
+                  <h3><?php if($share_info['sem8_percentage']==''){echo "N.A.";}else{echo $share_info['sem8_percentage'];} ?><sup style="font-size: 20px">%</sup></h3>
                   <p>8<sup>st</sup> Semester</p>
                 </div>
                 <div class="icon">

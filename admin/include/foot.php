@@ -9,6 +9,8 @@
 <script>
 	$.widget.bridge('uibutton', $.ui.button);
 </script>
+<!-- jquery2excel -->
+<script src="../admin_assets/js/jquery.table2excel.min.js" type="text/javascript"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="../admin_assets/bootstrap/js/bootstrap.min.js"></script>
 <!-- daterangepicker -->

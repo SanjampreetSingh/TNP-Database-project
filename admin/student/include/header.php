@@ -54,8 +54,8 @@
               <li class="user-header">
                 <img src="../admin_assets/dist/img/user2-160x160.png" class="img-circle" alt="User Image">
                 <p>
-                 <?php echo "NAME"; ?>
-                  <small><?php echo "UNIV ROLL NUMBER"; ?></small>
+                 <?php echo $share_info['firstName'];; ?>
+                  <small><?php echo $share_info['univRollNo'];; ?></small>
                 </p>
               </li>   
               <!-- Menu Footer-->

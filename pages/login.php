@@ -33,6 +33,21 @@ if (isset($_SESSION['iid'])) {
                             <label for="form4"><i class="fa fa-lock fa-lg" aria-hidden="true"></i> Password</label><br>
                             <input type="password" id="form4" class="form-control" placeholder="Your Password" name="password">
                         </div>
+                        <?php 
+                        if (isset($_GET['success'])) {
+                            if ($_GET['success']==0) {
+                                ?>
+                             <div class="md-form">
+                                <div class="alert alert-danger" role="alert">
+                                Invalid Username/Password.
+                                </div>
+
+                            </div>
+                                <?php
+                            }
+                             # code...
+                         } ?>
+                        
 
                         <div class="text-center">
                             <button class="btn blue" name="login" type="submit">Login</button>
@@ -65,12 +80,16 @@ if (isset($_POST['login'])) {
  $data=mysqli_fetch_array($exe);
  $data1=mysqli_fetch_array($exe1);
  if (mysqli_num_rows($exe)==1) {
-    $_SESSION["sid"]=$data['username'];
+    $_SESSION["uni_roll"]=$data['username'];
+    $_SESSION["sid"]=$data['sid'];
     header("location:admin/student/index.php");
 }
 elseif (mysqli_num_rows($exe1)==1) {
     $_SESSION["iid"]=$data1['username'];
     header("location:admin/institute/index.php");
+}
+else{
+    header("location:index.php?pg=login&success=0");
 }
 }
 ?>

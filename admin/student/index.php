@@ -4,10 +4,11 @@ session_start();
    header("location:../../index.php");
  } 
 include_once 'include/config.php';
+include_once 'include/function.php';
+$share_info = student_fetch($_SESSION['sid']);
 include_once '../include/head.php';
 include_once 'include/header.php';
 include_once 'include/sidebar.php';
-
 if(isset($_GET['pg'])){
 switch ($_GET['pg']) {
 	case 'job':

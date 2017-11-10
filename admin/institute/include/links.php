@@ -42,10 +42,10 @@
 				mysqli_query($con, $insert_job_query) or die(mysqli_error($con));
 
 
-		        $insert_eligibility_query = "INSERT INTO eligibility (xPercent,xiiPercent,diplomaPercent,degreePercent,branchType,branch) VALUES('$xPercent','$xiiPercent','$diplomaPercent','$degreePercent','$streamType','$stream')";
+		        $insert_eligibility_query = "INSERT INTO eligibility (xPercent,xiiPercent,diplomaPercent,degreePercent,branchType,branch,cid) VALUES('$xPercent','$xiiPercent','$diplomaPercent','$degreePercent','$streamType','$stream','$companyName')";
 				mysqli_query($con, $insert_eligibility_query) or die(mysqli_error($con));
 
- 				header("location:admin/institute/index.php");
+ 				header("location:index.php");
  
 		    } else {
 		        echo '<label class="text-danger">Sorry, there was an error uploading your file.</label>';

@@ -34,9 +34,8 @@
 					    <!-- small box -->
 					    <div class="small-box bg-green">
 					      <div class="inner">
-					        <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-					        <p>Bounce Rate</p>
+					        <h3>Create</h3>
+					        <p>Notification</p>
 					      </div>
 					      <div class="icon">
 					        <i class="ion ion-stats-bars"></i>
@@ -51,9 +50,8 @@
 					    <!-- small box -->
 					    <div class="small-box bg-yellow">
 					      <div class="inner">
-					        <h3>44</h3>
-
-					        <p>User Registrations</p>
+					        <h3>Student</h3>
+					        <p>Verification</p>
 					      </div>
 					      <div class="icon">
 					        <i class="ion ion-person-add"></i>
@@ -68,9 +66,8 @@
 					    <!-- small box -->
 					    <div class="small-box bg-red">
 					      <div class="inner">
-					        <h3>65</h3>
-
-					        <p>Unique Visitors</p>
+					        <h3>Filter</h3>
+					        <p>Database</p>
 					      </div>
 					      <div class="icon">
 					        <i class="ion ion-pie-graph"></i>

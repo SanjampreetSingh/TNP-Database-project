@@ -9,7 +9,7 @@
 
 
     <div class="card wizard-card" data-color="green" id="wizardProfile">
-      <form action="index.php?pg=generate" method="post" enctype="multipart/form-data">
+      <form action="index.php?pg=generate" method="get" enctype="multipart/form-data">
 
 
         <div class="header text-center">
@@ -51,6 +51,7 @@
                     <div class="form-group">
                       <label>X Percentage</label>
                       <input type="number" class="form-control" value="60" min="0" max="100" step="5" name="xPercent">
+                      <input type="hidden" name="pg" value="generate">
                     </div>
                   </div>
 
@@ -174,7 +175,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="classRoll">
+                    <input type="checkbox" name="detailsStudent[]" value="classRollNo">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>Class Roll No</p>

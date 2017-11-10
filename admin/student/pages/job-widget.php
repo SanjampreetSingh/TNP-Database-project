@@ -26,27 +26,28 @@
                   <!-- /.widget-user-image -->
                   <div class="user-block">
                     <span class="box-tools pull-right">
-                      <button type="button" class="btn btn-box-tool badge bg-green" data-widget="collapse"><i class="fa fa-plus"></i>
+                      <button type="button" class="btn btn-box-tool badge bg-green" data-widget="collapse"><i class="fa fa-minus"></i>
                       </button>
                     </span>
                     <h3 class="widget-user-username"><?php echo "Company Name"; ?></h3>
                     <h5 class="widget-user-desc"><?php echo "Time Left"; ?></h5>
                   </div>
                 </div>
-
-                <div class="box-body">
+          
+                <!-- <div class="box-body"> -->
+                <div class="box-footer no-padding">
                   <ul class="nav nav-stacked">
                     <li>
                       <strong>Job Details</strong>   
-                      <div class="box-footer">
-                        <p><?php echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat obcaecati est voluptatum ab sequi doloribus fugit exercitationem ipsa reiciendis eveniet id vitae, accusamus dolorum placeat necessitatibus, recusandae error praesentium nulla!"; ?></p>
-                      </div>
+                        <span><?php echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat obcaecati est voluptatum ab sequi doloribus fugit exercitationem ipsa reiciendis eveniet id vitae, accusamus dolorum placeat necessitatibus, recusandae error praesentium nulla!"; ?></span>
                     </li>
                     <li><a href="#">Tasks <span class="pull-right badge bg-aqua">5</span></a></li>
                     <li><a href="#">Completed Projects <span class="pull-right badge bg-green">12</span></a></li>
                     <li><div class="pull-right box-footer"><button class="btn btn-success"><i class="fa fa-check"></i> Apply</button></div></li>
                   </ul>
-                </div>
+                 </div>
+                <!-- </div> -->
+
               </div>
               <!-- /.widget-user -->
             </div>
