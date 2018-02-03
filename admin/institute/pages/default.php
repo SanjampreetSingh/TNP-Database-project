@@ -56,7 +56,7 @@
 					      <div class="icon">
 					        <i class="ion ion-person-add"></i>
 					      </div>
-					      <a href="index.php?pg=home" class="small-box-footer">
+					      <a href="index.php?pg=export" class="small-box-footer">
 					        More info <i class="fa fa-arrow-circle-right"></i>
 					      </a>
 					    </div>

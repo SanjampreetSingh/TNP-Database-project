@@ -10,26 +10,26 @@
 					<a href="index.php?pg=home">Home</a>
 					<!-- · -->
 					<!-- <a href="#">Blog</a> -->
+					<!-- · -->
+					<!-- <a href="#">Faq</a> -->
 					·
-					<a href="#">Faq</a>
-					·
-					<a href="#">Contact</a>
+					<a href="#about">About</a>
 				</p>
 			</section>
 
 			<!-- FOOTER CENTER SECTION -->
 			<section class="footer-center col-md-4">
-				<div>	<!-- contact details -->
+				<address>	<!-- contact details -->
 					<i class="fa fa-map-marker" aria-hidden="true"></i>
-					<p>#44/100 Block-J B.R.S Nagar<br> Ludhiana, Punjab</p>
-				</div>
+					<p>#792 Block-G S.B.S. Nagar<br> Ludhiana, Punjab</p>
+				</address>
 				<div>
 					<i class="fa fa-phone" aria-hidden="true"></i>
 					<p>+91 98153-33040</p>
 				</div>
 				<div>
 					<i class="fa fa-envelope" aria-hidden="true"></i>
-					<p><a href="mailto:sanjam531@gmail.com">kmvsingh007@gmail.com</a></p>
+					<p><a href="mailto:sanjam531@gmail.com">sanjam531@gmail.com</a></p>
 				</div>
 			</section>
 
@@ -37,15 +37,15 @@
 			<secton class="col-md-3">
 				<p class="footer-me-about">
 					<span>About Me</span>
-					I am Karamveer Singh.D3CSE B1 Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507604. <br/>
+					I am Sanjampreet Singh.D3IT B1 Student at GNDEC,Ludhiana.This is my Project.My University Roll No.-1507967. <br/>
 				</p>
 				<!-- SOCIAL LINKS -->
-				<div class="footer-icons">
+				<!-- <div class="footer-icons">
 					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 					<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 					<a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-				</div>
+				</div> -->
 			</secton>
 		</div>
 	</div>
@@ -53,7 +53,7 @@
 	<!--Copyright-->
 	<div class="footer-copyright">
 		<div class="pull-left">
-			<strong>Copyright &copy; 2017 <a href="index.php?pg=home">Academic Section, GNDEC </a></strong>All rights reserved.
+			<strong>Copyright &copy; 2017 <a href="index.php?pg=home">Training &amp Placement Database Management System, GNDEC </a></strong>All rights reserved.
 		</div>
 	</div>
 	<!--/.Copyright-->

@@ -30,7 +30,7 @@
               <li class="user-header">
                 <img src="../admin_assets/dist/img/user2-160x160.png" class="img-circle" alt="User Image">
                 <p>
-                 <?php echo "T and P Officer"; ?>
+                 <?php echo "T&P Officer"; ?>
                   <small><?php echo "Profile"; ?></small>
                 </p>
               </li>   

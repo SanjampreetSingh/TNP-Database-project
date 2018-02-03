@@ -33,6 +33,7 @@
 <script src="../admin_assets/js/jquery.validate.min.js" type="text/javascript"></script>
 
 <script type="text/javascript" src="../admin_assets/js/bootstrap-table.js"></script>
+<script src="../admin_assets/js/jquery.table2excel.min.js" type="text/javascript"></script>
 
 
 <script>  

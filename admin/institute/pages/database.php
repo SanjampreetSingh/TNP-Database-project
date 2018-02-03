@@ -13,9 +13,10 @@
     </div>
     <form method="post" id="export_excel">  
       <div class="row">
-        <div class="col-xs-4 col-xs-offset-1">
-          <input type="radio" name="grad"  value="UG" onclick="ff()">UG<br>
-          <input type="radio" name="grad"  value="PG" onclick="ff1()">PG<br>
+        <div class="col-xs-4 col-xs-offset-1 well text-center">
+          <label>Select Course</label><br>
+          <input type="radio" name="grad"  value="UG" onclick="ff()" checked="checked">UG &nbsp &nbsp
+          <input type="radio" name="grad"  value="PG" onclick="ff1()">PG
         </div>
         <div class="col-xs-4 col-xs-offset-1"> 
           <script type="text/javascript">
@@ -25,7 +26,8 @@
               $("#pgSub").hide('slow');
             }
           </script>
-          <div id='ugSub' style="display:none">
+          <div id='ugSub'  class="well text-center">
+            <label>Select Branch and Academic Year</label><br>
             <select name="branchUG" label="BTech">
               <option value="IT">IT</option>
               <option value="CSE">CSE</option>
@@ -34,7 +36,7 @@
               <option value="ME">ME</option>
               <option value="EE">EE</option>
               <option value="ECE">ECE</option>
-            </select> 
+            </select> &nbsp&nbsp
             <select name="batchUG" class="ugSub">
               <option value="2014-18">2014-18</option>
               <option value="2015-19">2015-19</option>
@@ -50,12 +52,13 @@
               $("#ugSub").hide('slow');
             }
           </script>
-          <div id='pgSub' style="display:none">
+          <div id='pgSub' style="display:none" class="well text-center">
+            <label>Select Branch and Academic Year</label><br>
             <select name="branchPG" class="pgSub">
               <option value="MBA">MBA</option>
               <option value="MCA">MCA</option>
               <option value="MTech" onclick="">MTech</option>
-            </select> 
+            </select> &nbsp&nbsp
             <select name="batchPG" class="pgSub">
               <option value="2016-18">2016-18</option>
               <option value="2017-19">2017-19</option>
@@ -65,10 +68,10 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-10 col-xs-offset-1">
+      <div class="row text-center">
+        <div class="col-xs-6 col-xs-offset-3 well">
           <label>Select Excel</label>  
-          <input type="file" name="excel_file" id="excel_file" />  
+          <input type="file" name="excel_file" id="excel_file" class="btn btn-block" />  
         </div>
       </div>
     </form>  

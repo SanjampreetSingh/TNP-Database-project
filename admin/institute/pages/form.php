@@ -1,6 +1,6 @@
-  <!-- Content Wrapper. Contains page content --> 
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
+<!-- Content Wrapper. Contains page content --> 
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
   <!-- <section class="content-header">
   </section> -->
 
@@ -13,8 +13,8 @@
 
 
         <div class="header text-center">
-        <div class="well text-center bg-green-active">
-          <h3 class="title">Create Job Form</h3>
+          <div class="well text-center bg-green-active">
+            <h3 class="title">Create Job Form</h3>
           </div>
           <p class="category">This form will help you create job notification.</p>
         </div>
@@ -28,6 +28,7 @@
 
           <ul>
             <li><a href="#about" data-toggle="tab"><div class="icon-circle"><i class="ti-user"></i></div>About Job</a></li>
+            <!-- <li><a href="#job" data-toggle="tab"><div class="icon-circle"><i class="ti-settings"></i></div>Required Details</a></li> -->
             <li><a href="#eligibility" data-toggle="tab"><div class="icon-circle"><i class="ti-map"></i></div>Eligibility</a></li>
             <li><a href="#details" data-toggle="tab"><div class="icon-circle"><i class="ti-settings"></i></div>Required Details</a></li>
           </ul>
@@ -35,13 +36,13 @@
         </div>
 
 
-        <div class="tab-content">
+        <div class="tab-content">   
 
           <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
           <div class="tab-pane" id="about">
 
-            <h5 class="info-text">Tell about Company &amp Job details</h5>
+            <h5 class="info-text">Tell about Company &amp Job</h5>
 
             <div class="row">
 
@@ -80,6 +81,39 @@
 
           </div>
 
+       <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+       <!-- <div class="tab-pane" id="job">
+
+         <h5 class="info-text">Tell Job details</h5>
+
+         <div class="row">
+          
+           <div class="col-sm-7">
+
+             <div class="form-group">
+               <label>Company Name <small>(required)</small></label>
+               <input name="companyName" type="text" class="form-control" placeholder="Company Name" required="required">
+             </div>
+
+             <div class="form-group">
+               <label>Time Limit <small>(required)</small></label>
+               <input name="timeLimit" type="datetime-local" class="form-control" placeholder="DD/MM/YYYY hr:mm AM/PM" required="required">
+             </div>
+
+           </div>
+           
+         </div>
+
+         <div class="col-sm-12">
+           <div class="form-group">
+             <label>Post <small>(required)</small></label>
+             <textarea class="form-control" placeholder="Details about company and job" rows="10" name="postData" class="textarea" id="editor1" name="editor1" required="required">Details about company and job</textarea>
+           </div>
+         </div>
+
+       </div>   
+ -->
           <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 
@@ -207,7 +241,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="uniRoll">
+                    <input type="checkbox" name="detailsStudent[]" value="univRollNo">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-pencil-alt"></i>
                       <p>Univ Roll No</p>
@@ -217,7 +251,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="classRoll">
+                    <input type="checkbox" name="detailsStudent[]" value="classRollNo">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>Class Roll No</p>
@@ -227,7 +261,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="sname">
+                    <input type="checkbox" name="detailsStudent[]" value="name">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-paint-roller"></i>
                       <p>Name</p>
@@ -237,7 +271,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="branch">
+                    <input type="checkbox" name="detailsStudent[]" value="stream">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-paint-roller"></i>
                       <p>Branch</p>
@@ -273,7 +307,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="phone">
+                    <input type="checkbox" name="detailsStudent[]" value="sContact">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>Phone</p>
@@ -299,7 +333,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="10Percent">
+                    <input type="checkbox" name="detailsStudent[]" value="ten_percentage">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>X</p>
@@ -309,7 +343,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="12Percent">
+                    <input type="checkbox" name="detailsStudent[]" value="xii_percentage">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>XII</p>
@@ -319,7 +353,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="diploma">
+                    <input type="checkbox" name="detailsStudent[]" value="dip_percentage">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>Diploma</p>
@@ -329,7 +363,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="degree">
+                    <input type="checkbox" name="detailsStudent[]" value="agg_percentage">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>Degree</p>
@@ -350,7 +384,7 @@
         <div class="wizard-footer">
           <div class="pull-right">
             <input type='button' class='btn btn-next btn-fill btn-warning btn-wd' name='next' value='Next' />
-            <input type='submit' class='btn btn-finish btn-fill btn-warning btn-wd' name='submit' value='Submit' />
+            <input type='submit' class='btn btn-finish btn-fill btn-warning btn-wd' name='submit_notification' value='Submit' />
           </div>
 
           <div class="pull-left">

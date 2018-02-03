@@ -13,7 +13,7 @@
 	<meta name="Author" content="Sanjampreet Singh" />
 	
 	
-	<title>GNDEC|Academic Section</title>
+	<title>GNDEC|Training &amp Placement Management Database System</title>
 
 	<!-- CSS Liberary Files -->	
 	<!-- Bootstrap core CSS -->
@@ -56,7 +56,7 @@
 						<!-- collapse button ends -->
 
 						<a class="navbar-brand" href="index.php?pg=home">
-							<div><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i> <span class="hidden-md-down">Academic Section</span></div>
+							<div><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i> <span class="hidden-md-down">Training &amp Placement Database Management System</span></div>
 						</a>
 						
 						<div class="collapse navbar-collapse" id="navbarNav1">

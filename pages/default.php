@@ -1,9 +1,8 @@
-<!--Mask-->
 <div class="view hm-black-strong">
     <div class="full-bg-img flex-center">
         <ul>
             <li>
-                <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Academic Section</h1></li>
+                <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Training &amp Placement Database Management System</h1></li>
                 <li>
                     <p class="wow fadeInDown">Login to Enter Possibilities of Life</p>
                 </li>
@@ -26,139 +25,139 @@
         <!--Section: About-->
         <section id="about" class="text-center wow fadeIn" data-wow-delay="0.2s">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem, saepe eius.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem, saepe eius.</p>
+            <p>Training and Placement Cell Database Management System is a database management softwareusually a suite of integrated components software that Training and Placement Cell members can use to retrieve and manipulate data of students according to the requirements needed by Training and Placement Cell as well as the companies visiting the Training and Placement Cell.</p>
+            <p>Training and Placement Cell Database Management System delivers a comprehensive, integrated, user support infrastructure, student database management, project management and reporting.</p>
 
         </section>
         <!--Section: About-->
 
-        <div class="divider-new">
+       <!--  <div class="divider-new">
             <h2 class="h2-responsive wow fadeIn">Best features</h2>
-        </div>
+        </div> -->
 
         <!--Section: Best features-->
-        <section id="best-features">
+        <!-- <section id="best-features"> -->
 
-            <div class="row">
+            <!-- <div class="row"> -->
 
                 <!--First columnn-->
-                <div class="col-lg-3">
+                <!-- <div class="col-lg-3"> -->
                     <!--Card-->
-                    <div class="card wow fadeIn">
+                    <!-- <div class="card wow fadeIn"> -->
 
                         <!--Card image-->
-                        <div class="view overlay hm-white-slight">
+                    <!--     <div class="view overlay hm-white-slight">
                             <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(25).jpg" class="img-fluid" alt="">
                             <a>
                                 <div class="mask"></div>
                             </a>
-                        </div>
+                        </div> -->
                         <!--/.Card image-->
 
                         <!--Card content-->
-                        <div class="card-block text-center">
+                        <!-- <div class="card-block text-center"> -->
                             <!--Title-->
-                            <h4 class="card-title">360 Advertising</h4>
-                            <hr>
+                          <!--   <h4 class="card-title">360 Advertising</h4>
+                            <hr> -->
                             <!--Text-->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                        </div>
+                         <!--    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                        </div> -->
                         <!--/.Card content-->
 
-                    </div>
+                    <!-- </div> -->
                     <!--/.Card-->
-                </div>
+                <!-- </div> -->
                 <!--First columnn-->
 
                 <!--Second columnn-->
-                <div class="col-lg-3">
+                <!-- <div class="col-lg-3"> -->
                     <!--Card-->
-                    <div class="card wow fadeIn" data-wow-delay="0.2s">
+                    <!-- <div class="card wow fadeIn" data-wow-delay="0.2s"> -->
 
-                        <!--Card image-->
+                        <!--Card image--><!-- 
                         <div class="view overlay hm-white-slight">
                             <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(14).jpg" class="img-fluid" alt="">
                             <a>
                                 <div class="mask"></div>
                             </a>
-                        </div>
+                        </div> -->
                         <!--/.Card image-->
 
                         <!--Card content-->
-                        <div class="card-block text-center">
+                        <!-- <div class="card-block text-center"> -->
                             <!--Title-->
-                            <h4 class="card-title">Top-class Team</h4>
-                            <hr>
+                            <!-- <h4 class="card-title">Top-class Team</h4>
+                            <hr> -->
                             <!--Text-->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                        </div>
+                            <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                        </div> -->
                         <!--/.Card content-->
 
-                    </div>
+                    <!-- </div> -->
                     <!--/.Card-->
-                </div>
+                <!-- </div> -->
                 <!--Second columnn-->
 
                 <!--Third columnn-->
-                <div class="col-lg-3">
+                <!-- <div class="col-lg-3"> -->
                     <!--Card-->
-                    <div class="card wow fadeIn" data-wow-delay="0.4s">
+                    <!-- <div class="card wow fadeIn" data-wow-delay="0.4s"> -->
 
                         <!--Card image-->
-                        <div class="view overlay hm-white-slight">
+                       <!--  <div class="view overlay hm-white-slight">
                             <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(21).jpg" class="img-fluid" alt="">
                             <a>
                                 <div class="mask"></div>
                             </a>
-                        </div>
+                        </div> -->
                         <!--/.Card image-->
 
                         <!--Card content-->
-                        <div class="card-block text-center">
+                        <!-- <div class="card-block text-center"> -->
                             <!--Title-->
-                            <h4 class="card-title">Newest Technolgies</h4>
+                            <!-- <h4 class="card-title">Newest Technolgies</h4>
                             <hr>
-                            <!--Text-->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                        </div>
+                             --><!--Text-->
+                            <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                        </div> -->
                         <!--/.Card content-->
 
-                    </div>
+                    <!-- </div> -->
                     <!--/.Card-->
-                </div>
+                <!-- </div> -->
                 <!--Third columnn-->
 
                 <!--First columnn-->
-                <div class="col-lg-3">
+                <!-- <div class="col-lg-3"> -->
                     <!--Card-->
-                    <div class="card wow fadeIn" data-wow-delay="0.6s">
+                    <!-- <div class="card wow fadeIn" data-wow-delay="0.6s"> -->
 
                         <!--Card image-->
-                        <div class="view overlay hm-white-slight">
+                        <!-- <div class="view overlay hm-white-slight">
                             <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(37).jpg" class="img-fluid" alt="">
                             <a>
                                 <div class="mask"></div>
                             </a>
-                        </div>
+                        </div> -->
                         <!--/.Card image-->
 
                         <!--Card content-->
-                        <div class="card-block text-center">
+                        <!-- <div class="card-block text-center"> -->
                             <!--Title-->
-                            <h4 class="card-title">24/7 Support</h4>
-                            <hr>
+                           <!--  <h4 class="card-title">24/7 Support</h4>
+                            <hr> -->
                             <!--Text-->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
-                        </div>
+                            <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                        </div> -->
                         <!--/.Card content-->
 
-                    </div>
+                    <!-- </div> -->
                     <!--/.Card-->
-                </div>
+                <!-- </div> -->
                 <!--First columnn-->
-            </div>
+            <!-- </div> -->
 
-        </section>
+        <!-- </section> -->
         <!--/Section: Best features-->
 
         <div class="divider-new">
@@ -178,4 +177,4 @@
         <!--Section: Contact-->
 
     </div>
-    <!--/ Main container-->
+    <!--/ Main container

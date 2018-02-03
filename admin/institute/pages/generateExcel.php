@@ -106,15 +106,15 @@
                       <input type="checkbox" value="F" name="gender"> Female<br> 
                     </div>
                   </div>
-                  <div class="col-sm-3">
+                  <!-- <div class="col-sm-3">
                     <div class="form-group">
                       <label>Allowed Branches</label><br>
                       <input type="checkbox" value="UG" name="branchType[]" onclick="ff()"> UG<br>
                       <input type="checkbox" value="PG" name="branchType[]" onclick="ff1()"> PG<br> 
                     </div>
-                  </div>
-                </div>
-                <div class="row">
+                  </div> -->
+                <!-- </div> -->
+                <!-- <div class="row">
                   <div class="col-sm-12">
 
                     <script type="text/javascript">
@@ -149,11 +149,11 @@
 
                   </div>
                 </div> 
-
+ -->
               </div>
             </div>        
           </div>
-
+</div>
           <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 
@@ -165,7 +165,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="uniRoll">
+                    <input type="checkbox" name="detailsStudent[]" value="univRollNo">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-pencil-alt"></i>
                       <p>Univ Roll No</p>
@@ -185,7 +185,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="sname">
+                    <input type="checkbox" name="detailsStudent[]" value="name">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-paint-roller"></i>
                       <p>Name</p>
@@ -195,7 +195,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="branch">
+                    <input type="checkbox" name="detailsStudent[]" value="stream">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-paint-roller"></i>
                       <p>Branch</p>
@@ -231,7 +231,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="phone">
+                    <input type="checkbox" name="detailsStudent[]" value="sContact">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>Phone</p>
@@ -257,7 +257,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="10Percent">
+                    <input type="checkbox" name="detailsStudent[]" value="ten_percentage">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>X</p>
@@ -267,7 +267,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="12Percent">
+                    <input type="checkbox" name="detailsStudent[]" value="xii_percentage">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>XII</p>
@@ -277,7 +277,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="diploma">
+                    <input type="checkbox" name="detailsStudent[]" value="dip_percentage">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>Diploma</p>
@@ -287,7 +287,7 @@
 
                 <div class="col-xs-3">
                   <div class="choice" data-toggle="wizard-checkbox">
-                    <input type="checkbox" name="detailsStudent[]" value="degree">
+                    <input type="checkbox" name="detailsStudent[]" value="agg_percentage">
                     <div class="card card-checkboxes card-hover-effect">
                       <i class="ti-star"></i>
                       <p>Degree</p>
@@ -300,41 +300,8 @@
 
           </div>
 
-          <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+          <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-      <!--   <div class="tab-pane" id="table_export">
-
-          <h5 class="info-text">Filtered Student</h5>
-
-          <div class="row">
-
-           <div class="col-md-12">
-                               
-               <div class="fresh-table toolbar-color-green">
-                    
-               
-                   <div class="toolbar">
-                       <button id="alertBtn" class="btn btn-default">Export Excel</button>
-                   </div>
-                   
-                   <table id="fresh-table" class="table">
-                       <thead>
-                           <th data-field="id">ID</th>
-                       </thead>
-                       <tbody>
-                           <tr>
-                               <td></td>
-                           </tr>                            
-                       </tbody>
-                   </table>
-               </div>
-               
-               
-           </div>
-
-          </div>
-        </div> -->
-        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
       </div>
       <!-- tab content -->
